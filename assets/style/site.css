@@ -1,0 +1,25 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	margin: 0;
+	background-color: #ECECEC;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+		background-color: #DDDDDD;
+}
+
+::-webkit-scrollbar-thumb {
+		background-color: #B0B0B0;
+    border-radius: 10px;
+}
