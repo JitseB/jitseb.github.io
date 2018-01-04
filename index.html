@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Jitse B.</title>
+    <title>Jitse Boonstra</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-    <link rel="stylesheet" type="text/css" href="assets/style/site.css">
-    <link rel="stylesheet" type="text/css" href="assets/style/header.css">
-    <link rel="stylesheet" type="text/css" href="assets/style/body.css">
-    <link rel="stylesheet" type="text/css" href="assets/style/footer.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/icons/manifest.json">
-    <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#8ca6db">
-    <link rel="shortcut icon" href="/assets/icons/favicon.ico">
-    <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+    <link rel="stylesheet" type="text/css" href="./assets/style/site.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style/header.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style/body.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style/footer.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style/about.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/icons/manifest.json">
+    <link rel="mask-icon" href="./assets/icons/safari-pinned-tab.svg" color="#8ca6db">
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico">
+    <meta name="msapplication-config" content="./assets/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
     <!-- Header -->
     <header>
@@ -44,20 +44,38 @@
         </div>
         <p id="subtitle" style="opacity:0">Full Stack Developer</p>
     </header>
-
     <!-- Body -->
-    <h1 id="featured-title">Featured Projects</h1>
+    <section id="about">
+      <div id="about-left">
+        <div id="about-image"></div>
+      </div>
+        <div id="about-right">
+          <div id="about-text">
+            <h2>About myself</h2>
+            <p>
+              Hi there, I'm Jitse.<br>
+              <br>
+              Raised in the Netherlands, I've grown a big passion for creating reliable, scalable and eduring technology.
+              I started programming when I was 9 years old and have since collected a wide knownlegde about a big variety of technologies and programming languages.
+              The languages I feel most confident in are Java, JavaScript (both frontend and backend) and PHP.<br>
+              <br>
+              I also happen to be a big physics enthousiast.
+            </p>
+          </div>
+        </div>
+    </section>
+    <h2 class="title">Featured Projects</h2>
     <section id="featured">
-      <div class="container" id="apollo">
+      <div class="container" id="rediscore">
         <div class="title">
-          <h1>Apollo</h1>
+          <h1>RedisCore</h1>
         </div>
         <div class="description">
-          <p><span class="bold">Position</span>: Founder & Developer</p>
+          <p><span class="bold">Position</span>: Creator</p>
           <p><span class="bold">Status</span>: Active</p>
-          <p><span class="bold">Description</span>: A server overview system for Minecraft networks.</p>
-          <p><span class="bold">Company</span>: Jitse.NET (Personal Project)</p>
-          <a href="https://github.com/JitseB/Apollo">Go to repository</a>
+          <p><span class="bold">Description</span>: A high performing Minecraft network core based on Redis.</p>
+          <p><span class="bold">Company</span>: Personal Project</p>
+          <a href="https://github.com/JitseB/redis-core">Go to repository</a>
         </div>
       </div>
       <div class="container" id="spacemine">
@@ -70,30 +88,6 @@
           <p><span class="bold">Description</span>: A next-gen hosting provider for blazingly fast Minecraft servers.</p>
           <p><span class="bold">Company</span>: SpaceMine Ltd.</p>
           <a href="https://www.spacemine.net/">Go to website</a>
-        </div>
-      </div>
-      <div class="container" id="mintar">
-        <div class="title">
-          <h1>Mintar</h1>
-        </div>
-        <div class="description">
-          <p><span class="bold">Position</span>: Lead Developer</p>
-          <p><span class="bold">Status</span>: Active</p>
-          <p><span class="bold">Description</span>: Minecraft network. Based in Stockholm, Sweden.</p>
-          <p><span class="bold">Company</span>: Mintar Games</p>
-          <a href="https://mintar.net/index.php">Go to website</a>
-        </div>
-      </div>
-      <div class="container" id="status">
-        <div class="title">
-          <h1>MC Status</h1>
-        </div>
-        <div class="description">
-          <p><span class="bold">Position</span>: Founder & Developer</p>
-          <p><span class="bold">Status</span>: Finished</p>
-          <p><span class="bold">Description</span>: A small project of mine to check the Mojang server statuses.</p>
-          <p><span class="bold">Company</span>: Jitse.NET (Personal Project)</p>
-          <a href="https://jitseb.github.io/MCStatus/">Go to website</a>
         </div>
       </div>
     </section>
@@ -109,7 +103,7 @@
         </ul>
       </div>
       <div class="footer-item">
-        <p class="small">&copy; design & code by Jitse B, 2017</p>
+        <p class="small">&copy; design & code by Jitse Boonstra, 2018</p>
       </div>
       <div class="footer-item">
         <p class="small">Proudly hosted on <a href="https://github.com/JitseB/JitseB.github.io">GitHub</a></p>

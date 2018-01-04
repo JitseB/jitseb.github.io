@@ -49,18 +49,9 @@ header {
 	position: absolute;
 	height: 100vh;
 	width: 100%;
-
-	/*background: #B993D6;
+	background: #8CA6DB;
 	background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);
-	background: linear-gradient(to right, #8CA6DB, #B993D6);*/
-
-	background: #FF8008;
-	background: -webkit-linear-gradient(to right, #FFC837, #FF8008);
-	background: linear-gradient(to right, #FFC837, #FF8008);
-
-	/*background: #0f0c29;
-	background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
-	background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);*/
+	background: linear-gradient(to right, #8CA6DB, #B993D6);
 }
 
 #lineDrawing {
