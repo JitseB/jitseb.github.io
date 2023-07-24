@@ -16,15 +16,14 @@
 title: Jitse Boonstra
 email: jitse@sent.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Jitse Boonstra blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "bnstra.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: bnstra
+linkedin_username: jitseboonstra
 github_username:  jitseb
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: no-style-please
 plugins:
   - jekyll-feed
 
