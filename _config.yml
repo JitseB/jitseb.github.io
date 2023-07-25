@@ -21,20 +21,43 @@ url: "bnstra.com" # the base hostname & protocol for your site, e.g. http://exam
 linkedin_username: jitseboonstra
 github_username:  jitseb
 
-# Build settings
-markdown: kramdown
-theme: no-style-please
-plugins:
-  - jekyll-feed
+permalink: /:slug/
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+
+remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "light" # can be "light", "dark" or "auto"
+  back_home_text: "<< back" # customize text for homepage link in post layout
+  date_format: "%d-%m-%Y" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-toc
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jektex
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - package.json
+  - Gruntfile.js
+  - node_modules
+  - .jekyll-cache
+  
+# TOC Settings
+toc:
+ min_level: 1
+ max_level: 3
+ list_class: toc
+ list_class: toc__list
+ sublist_class: toc__sublist

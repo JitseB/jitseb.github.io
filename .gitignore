@@ -23,7 +23,7 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
-*.lock
 .bundle
 _site
 .jekyll-cache
+Gemfile.lock
