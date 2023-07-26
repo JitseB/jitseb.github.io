@@ -45,7 +45,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jektex
-  - jekyll-include-cache
+#  - jekyll-include-cache
 
 exclude:
   - Gemfile
