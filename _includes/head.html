@@ -16,7 +16,24 @@
   
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
-    <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-      </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
+      MathJax.Hub.Config({
+        "HTML-CSS": {
+          availableFonts: ["TeX"],
+        },
+        tex2jax: {
+          inlineMath: [['$','$'],["\\(","\\)"]]},
+          displayMath: [ ['$$','$$'], ['\[','\]'] ],
+        TeX: {
+          extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"],
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        showProcessingMessages: false,
+        messageStyle: "none",
+        imageFont: null,
+        "AssistiveMML": { disabled: true }
+      });
+    </script>
   </head>
