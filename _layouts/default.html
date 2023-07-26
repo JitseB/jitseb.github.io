@@ -9,9 +9,7 @@
       </div>
     </main>
 
-    {%-if site.goat_counter and jekyll.environment == "production"-%}
-      {%-include goat_counter.html-%}
-    {%-endif-%}
+    {%-include goat_counter.html-%}
 
     {% if page.custom_js %}
       {% for js_file in page.custom_js %}
