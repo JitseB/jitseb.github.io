@@ -3,26 +3,30 @@
   filter: invert(1);
   img {
     filter: invert(1);
-
-    &.ioda { filter: invert(0); }
+    &.ioda {
+      filter: invert(0);
+    }
   }
 }
-
-body[a="dark"] { @include dark-appearance; }
-
-
+body[data-theme="dark"] {
+  @include dark-appearance;
+}
 @media (prefers-color-scheme: dark) {
-  body[a="auto"] { @include dark-appearance; }
+  body[data-theme="auto"] {
+    @include dark-appearance;
+  }
 }
 // -------------------------------------------- //
-
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: white; }
-
-html { height: 100%; }
-
+html,
+body {
+  background: white;
+}
+html {
+  height: 100%;
+}
 body {
   color: black;
   font-family: sans-serif;
@@ -32,62 +36,72 @@ body {
   min-height: 100%;
   overflow-wrap: break-word;
 }
-
-.post-meta { text-align: right; }
-
-h2, h3, h4, h5, h6 { margin-top: 3rem; }
-
-hr { margin: 2rem 0; }
-
-p { margin: 1rem 0; }
-
-li { margin: 0.4rem 0; }
-
-*:target { background: yellow; }
-
+.post-meta {
+  text-align: right;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 3rem;
+}
+hr {
+  margin: 2rem 0;
+}
+p {
+  margin: 1rem 0;
+}
+li {
+  margin: 0.4rem 0;
+}
+*:target {
+  background: yellow;
+}
 .w {
   max-width: 640px;
   margin: 0 auto;
   padding: 4rem 2rem;
 }
-
 hr {
   text-align: center;
   border: 0;
-
-  &:before { content: '/////' }
-  &:after { content: attr(data-content) '/////' }
+  &:before {
+    content: "/////";
+  }
+  &:after {
+    content: attr(data-content) "/////";
+  }
 }
-
-table { width: 100%; }
-
-table, th, td {
+table {
+  width: 100%;
+}
+table,
+th,
+td {
   border: thin solid black;
   border-collapse: collapse;
   padding: 0.4rem;
 }
-
 code {
-  font-family: monospace;
   color: black;
   background: lightgray;
+  font-family: monospace;
 }
-
 div.highlighter-rouge code {
   display: block;
   overflow-x: auto;
   white-space: pre-wrap;
   padding: 1rem;
 }
-
 blockquote {
   font-style: italic;
   border: thin solid black;
   padding: 1rem;
-
-  p { margin: 0; }
+  p {
+    margin: 0;
+  }
 }
-
 img {
   max-width: 100%;
   display: block;
@@ -95,13 +109,13 @@ img {
 }
 // mode button rounded
 #mode {
-background: white;
-position: fixed;
-top: 1rem;
-right: 1rem;
-font-size: 1.5rem;
-z-index: 100;
-border: 2px solid #fff;
-border-radius: 100%;
-transform: rotate(45deg);
+  background: white;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  z-index: 100;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  transform: rotate(45deg);
 }

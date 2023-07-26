@@ -64,3 +64,5 @@ toc:
  list_class: toc
  list_class: toc__list
  sublist_class: toc__sublist
+
+goat_counter: true
