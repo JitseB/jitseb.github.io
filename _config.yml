@@ -44,7 +44,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-gist
-  - jektex
+  - jekyll-latex
   - jekyll-include-cache
 
 exclude:
