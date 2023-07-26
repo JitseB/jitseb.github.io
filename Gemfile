@@ -39,4 +39,4 @@ gem "kramdown-parser-gfm"
 gem "github-pages", "~> 228", group: :jekyll_plugins
 gem "webrick", "~> 1.8"
 gem "jekyll-gist"
-gem "jektex"
+gem 'jektex', '~> 0.1.0'
