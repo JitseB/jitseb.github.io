@@ -28,7 +28,10 @@
       <div class="w">
         <article>
   <header>
-    <button id="mode"><br/><small>switch theme</small></button>
+    <div class="mode-wrapper">
+      <span>switch theme</span>
+      <button id="mode"><br/></button>
+    </div>
     <p class="post-meta"><a style="float:left" href="/"><< back</a><span class="reading-time" title="Estimated read time">
   
   
@@ -98,7 +101,12 @@ adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq
           </p>          
         </footer>
       </div>
-    </main><script data-goatcounter="https://stats.bnstra.com/count" async src="/assets/js/count.js"></script>
+    </main><script>
+    window.goatcounter = {
+        path: location.pathname || '/',
+    }
+</script>
+<script data-goatcounter="https://stats.bnstra.com/count" async src="/assets/js/count.js"></script>
     <script src="/assets/js/mode-change.js"></script>
   </body>
 </html>
