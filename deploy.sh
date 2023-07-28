@@ -1,6 +1,14 @@
 #!/bin/bash
 while true; do
-    read -p "Do you want to proceed deploying (y/n)? " yn
+    read -p "Is everything committed to the master branch (y/n)? " yn
+    case $yn in
+        [Yy]* ) break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+while true; do
+    read -p "Are you sure? Uncommitted changes are lost! (y/n) " yn
     case $yn in
         [Yy]* ) break;;
         [Nn]* ) exit;;
