@@ -27,3 +27,6 @@ nosetests.xml
 Gemfile.lock
 tmp
 log
+.jekyll-cache
+.jektex-cache
+_site

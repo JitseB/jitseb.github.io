@@ -59,6 +59,7 @@ exclude:
   - Gruntfile.js
   - node_modules
   - .jekyll-cache
+  - .jektex-cache
   
 # TOC Settings
 toc:
