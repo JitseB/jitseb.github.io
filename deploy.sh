@@ -14,4 +14,6 @@ git stash pop
 mv ./_site/404/index.html ./_site/404.html
 git --git-dir=.git --work-tree=_site add --all
 git --git-dir=.git --work-tree=_site commit -m "autogen: update site"
-echo "now push via the GitHub app"
+echo "now push the prod branch via the GitHub app"
+git reset --hard && git clean -f -d
+git checkout master
