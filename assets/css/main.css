@@ -128,12 +128,12 @@ img {
 }
 
 .mode-wrapper {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    margin: auto 0;
-    left: calc(50% - 20px);
-    top: calc(2rem + 10px);
-    text-align: center;
-    display: block;
+    width: 100%;
+    left: 0;
 }
 .mode-wrapper #mode {
     background: black;
