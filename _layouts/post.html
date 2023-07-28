@@ -9,7 +9,7 @@ layout: default
       <button id="mode"><br/></button>
     </div>
     <p class="post-meta">
-      {%-include back_link.html-%}{% include read_time.html %} | <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
+      {%-include back_link.html-%}<time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time><br/>{% include read_time.html %}
     </p>
   </header>
   
