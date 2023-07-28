@@ -24,7 +24,6 @@ nosetests.xml
 .project
 .pydevproject
 .bundle
-_site
 .jekyll-cache
 Gemfile.lock
 tmp

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-28T20:11:28+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jitse Boonstra</title><subtitle></subtitle><entry><title type="html">TEST!</title><link href="http://localhost:4000/test/" rel="alternate" type="text/html" title="TEST!" /><published>2023-07-26T20:12:28+02:00</published><updated>2023-07-26T20:12:28+02:00</updated><id>http://localhost:4000/test</id><content type="html" xml:base="http://localhost:4000/test/">\[y=ax^2\]
+
+\[\frac{dx}{dy}\equiv 2\]
+
+\[y=a+bx\]
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+
+\[\left[ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right] \Psi(\mathbf{r},t)\]
+
+&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+ea commodo consequat.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur \(e^{i\theta}=\cos(\theta)+i\sin(\theta)\)
+adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+
+&lt;h1 id=&quot;h1&quot;&gt;h1&lt;/h1&gt;
+&lt;h2 id=&quot;h2&quot;&gt;h2&lt;/h2&gt;
+&lt;h3 id=&quot;h3&quot;&gt;h3&lt;/h3&gt;
+&lt;p&gt;testy test
+You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+\[y=ax^2\]
+
+\[\frac{dx}{dy}\equiv 2\]
+
+\[y=a+bx\]
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+
+\[\left[ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right] \Psi(\mathbf{r},t)\]
+
+&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+ea commodo consequat.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur \(e^{i\theta}=\cos(\theta)+i\sin(\theta)\)
+adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+
+\[\dd x \qc \dv{x} \qc \dv{f}{x} \qc\]
+
+&lt;h2 id=&quot;this-is-another-math-test-multiline&quot;&gt;this is another math test (multiline)&lt;/h2&gt;
+&lt;p&gt;$$
+\begin{eqnarray} 
+\dv[n]{x} \qc \dv[n]{f}{x} \&lt;/p&gt;
+
+&lt;p&gt;\pd x\qc \pdv{x} \qc \pdv{f}{x} \qc
+\pdv[n]{x} \qc \pdv[n]{f}{x} \qc \pdv{f}{x}{y}{z} \&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;\qty[\qty(1-n)*\frac{1}{n}] \qc \qty{1+\frac{1}{n}} \qc \qty&lt;/td&gt;
+      &lt;td&gt;1+\frac{1}{n}&lt;/td&gt;
+      &lt;td&gt;\&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;\bra{a} \qc \ket{b} \qc \expval{x} \qc
+\braket{a}{b} \qc \ketbra{a}{b} \qc \matrixel{a}{b}{c} \&lt;/p&gt;
+
+&lt;p&gt;\mqty(a &amp;amp; b \ c &amp;amp; d) \qc \mqty[a &amp;amp; b \ c &amp;amp; d] \qc \mqty{a &amp;amp; b \ c &amp;amp; d} \qc
+\mdet{a &amp;amp; b \ c &amp;amp; d} \qc \mqty|a &amp;amp; b \ c &amp;amp; d| \&lt;/p&gt;
+
+&lt;p&gt;\mqty[\dmat{a,b,\cdots}] \qc \mqty[\admat{a,b,\cdots}] \qc
+\mqty[\imat{2}] \qc \mqty[\xmat{x}{3}{2}] \qc
+\end{eqnarray} 
+$$&lt;/p&gt;
+
+\[\RR\quad\bold{test}\quad\bf{test}\]
+
+&lt;h3 id=&quot;another-attempt&quot;&gt;another attempt&lt;/h3&gt;
+&lt;p&gt;\begin{gather} 
+&amp;amp;y = x^4 + 4       &lt;br /&gt;
+&amp;amp;= (x^2+2)^2 -4x^2  &lt;br /&gt;
+&amp;amp;\le(x^2+2)^2 &lt;br /&gt;
+\end{gather}&lt;/p&gt;
+
+&lt;h2 id=&quot;online&quot;&gt;Online&lt;/h2&gt;
+&lt;p&gt;\begin{equation}
+E = mc^2
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;Equation*:&lt;/p&gt;
+
+&lt;p&gt;\begin{equation&lt;em&gt;}
+E = mc^2
+\end{equation&lt;/em&gt;}&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Brackets:&lt;/p&gt;
+
+&lt;p&gt;[E = mc^2\]&lt;/p&gt;
+
+&lt;p&gt;Brackets tagged:&lt;/p&gt;
+
+&lt;p&gt;\[E = mc^2\tag{x}\]&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Split:&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+\begin{split} 
+a&amp;amp; =b+c-d\ 
+&amp;amp; \quad +e-f\ 
+&amp;amp; =g+h\ 
+&amp;amp; =i 
+\end{split} 
+\end{equation}&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Multline:&lt;/p&gt;
+
+&lt;p&gt;\begin{multline}
+  a+b+c+d+e+f+g&lt;br /&gt;
+  M+N+O+P+Q&lt;br /&gt;
+  R+S+T&lt;br /&gt;
+  u+v+w+x+y+z
+\end{multline}&lt;/p&gt;
+
+&lt;p&gt;Multline*:&lt;/p&gt;
+
+&lt;p&gt;\begin{multline&lt;em&gt;}
+  a+b+c+d+e+f+g&lt;br /&gt;
+  M+N+O+P+Q&lt;br /&gt;
+  R+S+T&lt;br /&gt;
+  u+v+w+x+y+z
+\end{multline&lt;/em&gt;}&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Gather:&lt;/p&gt;
+
+&lt;p&gt;\begin{gather} 
+a_1=b_1+c_1\ 
+a_2=b_2+c_2-d_2+e_2 
+\end{gather}&lt;/p&gt;
+
+&lt;p&gt;Gather*:&lt;/p&gt;
+
+&lt;p&gt;\begin{gather&lt;em&gt;} 
+a_1=b_1+c_1\ 
+a_2=b_2+c_2-d_2+e_2 
+\end{gather&lt;/em&gt;}&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Align:&lt;/p&gt;
+
+&lt;p&gt;\begin{align} 
+a_1&amp;amp; =b_1+c_1\ 
+a_2&amp;amp; =b_2+c_2-d_2+e_2 
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;Align*:&lt;/p&gt;
+
+&lt;p&gt;\begin{align&lt;em&gt;} 
+a_1&amp;amp; =b_1+c_1\ 
+a_2&amp;amp; =b_2+c_2-d_2+e_2 
+\end{align&lt;/em&gt;}&lt;/p&gt;
+
+&lt;p&gt;Align:&lt;/p&gt;
+
+&lt;p&gt;\begin{align} 
+a_{11}&amp;amp; =b_{11}&amp;amp; a_{12}&amp;amp; =b_{12}\ 
+a_{21}&amp;amp; =b_{21}&amp;amp; a_{22}&amp;amp; =b_{22}+c_{22} 
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;Align with \notag and \tag:&lt;/p&gt;
+
+&lt;p&gt;\begin{align} 
+a_{11}&amp;amp; =b_{11}&amp;amp; a_{12}&amp;amp; =b_{12}\notag\ 
+a_{21}&amp;amp; =b_{21}&amp;amp; a_{22}&amp;amp; =b_{22}+c_{22} \tag{y}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;Align* with \tag:&lt;/p&gt;
+
+&lt;p&gt;\begin{align&lt;em&gt;} 
+a_1&amp;amp; =b_1+c_1\tag{z}\ 
+a_2&amp;amp; =b_2+c_2-d_2+e_2 
+\end{align&lt;/em&gt;}&lt;/p&gt;
+&lt;h2 id=&quot;lala&quot;&gt;lala&lt;/h2&gt;
+&lt;p&gt;\(S_{i} =
+\begin{cases}
+    X_{1} &amp;amp; \text{if i = 1}\\
+    \alpha \cdot X_{i} + (1 - \alpha) \cdot S_{i-1} &amp;amp; \text{if i $&amp;gt;$ 1}
+\end{cases}\)&lt;/p&gt;
+
+&lt;p&gt;\begin{array}{cc}
+  a &amp;amp; b \&lt;br /&gt;
+  c &amp;amp; c
+\end{array}&lt;/p&gt;
+
+&lt;h1 id=&quot;moree&quot;&gt;MOREE&lt;/h1&gt;
+&lt;h2 id=&quot;no-tag&quot;&gt;no tag&lt;/h2&gt;
+&lt;p&gt;\(\begin{equation}
+n_e = \int_{\epsilon_c}^{\infty} g(\epsilon) \bar{n}_{fd}(\epsilon) d\epsilon \label{eq:he}
+\end{equation}\)&lt;/p&gt;
+&lt;h2 id=&quot;yes-tag&quot;&gt;yes tag&lt;/h2&gt;
+&lt;p&gt;\(\begin{equation}
+\begin{aligned}
+    &amp;amp;n_e = \int_{\epsilon_c}^{\infty} g(\epsilon) \bar{n}_{fd}(\epsilon) d\epsilon \label{eq:t}
+    \\
+    &amp;amp;= \int_{\epsilon_c}^{\infty}  g_0 \sqrt{\epsilon - \epsilon_c} \frac{1}{e^{\beta(\epsilon-\mu)}+1} \label{eq:2}
+\end{aligned}
+\end{equation}\)&lt;/p&gt;
+
+&lt;p&gt;eq \ref{eq:he}&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="test" /><summary type="html">\[y=ax^2\]</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-07-17T20:12:28+02:00</published><updated>2023-07-17T20:12:28+02:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+\[y=ax^2\]
+
+\[\frac{dx}{dy}\equiv 2\]
+
+\[y=a+bx\]
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+
+\[\left[ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right] \Psi(\mathbf{r},t)\]
+
+&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+ea commodo consequat.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur \(e^{i\theta}=\cos(\theta)+i\sin(\theta)\)
+adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>

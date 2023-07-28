@@ -5,6 +5,13 @@
     <main class="page-content" aria-label="Content">
       <div class="w">
         {{ content }}
+        <hr />
+        <footer>
+          <p>
+            Jitse Boonstra<br>
+            Site hosted with ❤️ on <a href="https://github.com/JitseB/jitseb.github.io">GitHub</a><br>
+          </p>          
+        </footer>
       </div>
     </main>
 
@@ -15,9 +22,6 @@
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
       {% endfor %}
     {% endif %}
-    <footer class="w">
-      hello
-    </footer>
     <script src="{{ site.baseurl | append: '/assets/js' }}/mode-change.js"></script>
   </body>
 </html>
