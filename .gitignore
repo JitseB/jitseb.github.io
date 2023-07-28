@@ -30,3 +30,4 @@ log
 .jekyll-cache
 .jektex-cache
 _site
+*.bib

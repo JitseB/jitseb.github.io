@@ -47,6 +47,7 @@ plugins:
   - jekyll-include-cache
   - rouge
   - jektex
+  - jekyll-scholar
 
 highlighter: rouge
 
@@ -73,3 +74,6 @@ markdown: kramdown
 
 jektex:
   cache_dir: ".jektex-cache"
+
+scholar:
+  style: modern-language-association
