@@ -4,7 +4,10 @@ layout: default
 
 <article>
   <header>
-    <button id="mode"><br/><small>switch theme</small></button>
+    <div class="mode-wrapper">
+      <span>switch theme</span>
+      <button id="mode"><br/></button>
+    </div>
     <p class="post-meta">
       {%-include back_link.html-%}{% include read_time.html %} | <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
     </p>
