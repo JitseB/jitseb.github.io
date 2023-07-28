@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home - Jitse.net</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="./assets/css/master.css">
+    <style media="screen">
+      header {
+        height: 100vh;
+      }
+      .credits {
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+      }
+      .credits span {
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        color: #444;
+      }
+      .credits span a {
+        text-decoration: underline;
+        color: #555;
+      }
+      .scroll {
+        position: absolute;
+        bottom: 50px;
+      }
+      .scroll a {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+      }
+      #projects .section-title {
+        font-family: 'Lato', sans-serif;
+        color: #5555FF;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        display: block;
+      }
+      #projects {
+        width: calc(100% - 100px);
+        max-width: 1324px;
+        margin: 0 auto;
+        padding-top: 60px;
+      }
+      #projects .project-list {
+        text-align: center;
+      }
+      footer {
+        padding: 60px 0;
+      }
+      #projects .project {
+        display: inline-block;
+        width: 328px;
+        padding: 20px;
+        margin: 20px;
+        background-color: #2a2a2a;
+        text-align: left;
+        border-radius: 5px;
+      }
+      #projects .project:nth-child(even) {
+        background-color: #333;
+      }
+      #projects .project-title {
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        color: #fff;
+        display: block;
+        margin-bottom: 5px;
+        width: 100%;
+      }
+      #projects .project-client {
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        display: inline;
+        font-weight: normal;
+        color: #999;
+        margin-bottom: 5px;
+        float: right;
+      }
+      #projects .project-client.client-public {
+        color: #55FF55;
+      }
+      #projects .project-client.client-private {
+        color: #FF5555;
+      }
+      #projects .project-description {
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        height: 20px;
+        color: #999;
+        display: block;
+      }
+      #projects .project-image {
+        height: 246px;
+        width: 328px;
+        background-image: url('http://placehold.it/656x492');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        content: '';
+        display: block;
+        margin: 20px 0;
+      }
+      #projects .project-image.project-image-npclib {
+        background-image: url('./assets/img/NPCLib.png');
+      }
+      #projects .project-image.project-image-spacepointer {
+        background-image: url('./assets/img/spacepointer.png');
+      }
+      #projects .project-image.project-image-dtc {
+        background-image: url('./assets/img/DTC.png');
+      }
+      #projects .project-image.project-image-imagep {
+        background-image: url('./assets/img/imagep.png');
+      }
+      #projects .project-link {
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        display: block;
+        margin-bottom: 5px;
+        display: inline-block;
+      }
+      header video {
+        height: 500px;
+        width: auto;
+        position: absolute;
+      }
+      header .name {
+        position: absolute;
+      }
+      header .name span {
+        display: block;
+        color: #fff;
+        margin-top: 10px;
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+      }
+      #biography {
+        width: calc(100% - 200px);
+        max-width: 1324px;
+        margin: 0 auto;
+        top: 60px;
+        height: 680px;
+        position: relative;
+      }
+      #biography .left {
+        color: #fff;
+        font-family: 'Lato', sans-serif;
+        width: calc(40% - 50px);
+        margin-right: 50px;
+      }
+      #biography .right {
+        background-image: url('./assets/img/Photo.jpg');
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        margin-left: 50px;
+        width: calc(60% - 50px);
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      #biography span {
+        font-weight: bold;
+        font-size: 18px;
+      }
+      #biography h1 {
+        font-size: 50px;
+        font-weight: 900;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="noselect">
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#biography">Biography</a>
+        <a href="mailto:Jitse@fastmail.com">Contact</a>
+      </nav>
+      <div class="links">
+        <a href="https://github.com/JitseB"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jitseboonstra/"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <video loop muted autoplay>
+          <source src="assets/video/video.mp4" type="video/mp4">
+      </video>
+      <div class="name">
+        <svg xmlns="http://www.w3.org/2000/svg" width="582.56" height="64.56" viewBox="0 0 582.56 62.56">
+          <defs>
+            <style>
+              .a {
+                stroke-dasharray: 250;
+                stroke-linecap: square;
+                stroke-linejoin: square;
+                stroke-dashoffset: 0;
+                animation-repeat: repeat;
+                animation: dash 1s ease-in;
+              }
+
+              @keyframes dash {
+                from {
+                  stroke-dashoffset: 250;
+                }
+                to {
+                  stroke-dashoffset: 0;
+                }
+              }
+
+              .a {
+                  fill: none;
+                  stroke: #fff;
+                  stroke-width: 2px;
+              }
+            </style>
+          </defs>
+          <path class="a" d="M16.24.8A22.974,22.974,0,0,1,6.36-1.32a19.355,19.355,0,0,1-7.4-5.96L4.88-14.4Q9.52-8,16-8q8.72,0,8.72-10.32V-47.28H4.8V-56H35.12v37.12q0,9.84-4.8,14.76T16.24.8ZM48.72-42.72h10V0h-10Zm5.04-7.04a6.423,6.423,0,0,1-4.56-1.72,5.619,5.619,0,0,1-1.84-4.28,5.619,5.619,0,0,1,1.84-4.28,6.423,6.423,0,0,1,4.56-1.72,6.6,6.6,0,0,1,4.56,1.64A5.286,5.286,0,0,1,60.16-56a6.033,6.033,0,0,1-1.8,4.44A6.229,6.229,0,0,1,53.76-49.76ZM97.52-2.32A11.772,11.772,0,0,1,93.24-.16a19.276,19.276,0,0,1-5.32.72q-7.04,0-10.88-3.68T73.2-13.84V-34.4H66.16v-8H73.2v-9.76h10v9.76H94.64v8H83.2v20.32a6.759,6.759,0,0,0,1.52,4.76,5.7,5.7,0,0,0,4.4,1.64,8.786,8.786,0,0,0,5.6-1.76ZM118.96.56A38.248,38.248,0,0,1,108.8-.8a25.563,25.563,0,0,1-7.92-3.44l3.84-7.6a24.688,24.688,0,0,0,6.92,3.08A28.749,28.749,0,0,0,119.6-7.6q8.96,0,8.96-4.72a3.153,3.153,0,0,0-2.28-3.12,39.367,39.367,0,0,0-7.32-1.68,59.387,59.387,0,0,1-8.6-1.84,13.2,13.2,0,0,1-5.76-3.64,10.166,10.166,0,0,1-2.44-7.24,11.381,11.381,0,0,1,5.08-9.72q5.08-3.64,13.72-3.64a39.6,39.6,0,0,1,8.8,1,24.671,24.671,0,0,1,7.2,2.68l-3.84,7.6a23.686,23.686,0,0,0-12.24-3.2,13.566,13.566,0,0,0-6.68,1.32,3.938,3.938,0,0,0-2.28,3.48,3.476,3.476,0,0,0,2.44,3.4,38.776,38.776,0,0,0,7.56,1.88,58.332,58.332,0,0,1,8.4,1.84,13.147,13.147,0,0,1,5.64,3.52q2.36,2.48,2.36,7.04a11.14,11.14,0,0,1-5.2,9.6Q127.92.56,118.96.56Zm68.16-21.68q0,1.04-.16,2.96H153.44a11.618,11.618,0,0,0,4.6,7.48,15.078,15.078,0,0,0,9.24,2.76,15.571,15.571,0,0,0,11.6-4.64l5.36,6.16a18.06,18.06,0,0,1-7.28,5.2A26.516,26.516,0,0,1,167.04.56a26.4,26.4,0,0,1-12.4-2.8,20.165,20.165,0,0,1-8.28-7.8,22.027,22.027,0,0,1-2.92-11.32,22.353,22.353,0,0,1,2.84-11.24,20.145,20.145,0,0,1,7.88-7.8,22.992,22.992,0,0,1,11.36-2.8,22.414,22.414,0,0,1,11.16,2.76,19.547,19.547,0,0,1,7.68,7.76A23.53,23.53,0,0,1,187.12-21.12ZM165.52-35.2a12.063,12.063,0,0,0-8.12,2.84,11.946,11.946,0,0,0-4.04,7.56H177.6a11.789,11.789,0,0,0-3.92-7.52A11.921,11.921,0,0,0,165.52-35.2Zm93.92,6.08a14.777,14.777,0,0,1,7.36,5.08,14.134,14.134,0,0,1,2.72,8.84,12.952,12.952,0,0,1-5.6,11.24Q258.32,0,247.6,0H219.76V-56H246q9.92,0,15.28,3.88a12.465,12.465,0,0,1,5.36,10.68,14.025,14.025,0,0,1-1.92,7.36A13.145,13.145,0,0,1,259.44-29.12ZM230.16-47.84V-32.4h14.72q5.44,0,8.36-1.96a6.456,6.456,0,0,0,2.92-5.72,6.532,6.532,0,0,0-2.92-5.8q-2.92-1.96-8.36-1.96Zm16.8,39.68q12.08,0,12.08-8.08t-12.08-8.08h-16.8V-8.16ZM298.88.56a24.238,24.238,0,0,1-11.68-2.8,20.416,20.416,0,0,1-8.12-7.8,22.028,22.028,0,0,1-2.92-11.32,21.813,21.813,0,0,1,2.92-11.28,20.5,20.5,0,0,1,8.12-7.76,24.238,24.238,0,0,1,11.68-2.8,24.406,24.406,0,0,1,11.76,2.8,20.5,20.5,0,0,1,8.12,7.76,21.813,21.813,0,0,1,2.92,11.28,22.028,22.028,0,0,1-2.92,11.32,20.416,20.416,0,0,1-8.12,7.8A24.406,24.406,0,0,1,298.88.56Zm0-8.56A12.218,12.218,0,0,0,308-11.68a13.249,13.249,0,0,0,3.6-9.68,13.249,13.249,0,0,0-3.6-9.68,12.218,12.218,0,0,0-9.12-3.68,12.087,12.087,0,0,0-9.08,3.68,13.334,13.334,0,0,0-3.56,9.68,13.334,13.334,0,0,0,3.56,9.68A12.087,12.087,0,0,0,298.88-8ZM350.48.56a24.238,24.238,0,0,1-11.68-2.8,20.416,20.416,0,0,1-8.12-7.8,22.028,22.028,0,0,1-2.92-11.32,21.813,21.813,0,0,1,2.92-11.28,20.5,20.5,0,0,1,8.12-7.76,24.238,24.238,0,0,1,11.68-2.8,24.406,24.406,0,0,1,11.76,2.8,20.5,20.5,0,0,1,8.12,7.76,21.813,21.813,0,0,1,2.92,11.28,22.027,22.027,0,0,1-2.92,11.32,20.416,20.416,0,0,1-8.12,7.8A24.406,24.406,0,0,1,350.48.56Zm0-8.56a12.218,12.218,0,0,0,9.12-3.68,13.249,13.249,0,0,0,3.6-9.68,13.249,13.249,0,0,0-3.6-9.68,12.218,12.218,0,0,0-9.12-3.68,12.087,12.087,0,0,0-9.08,3.68,13.334,13.334,0,0,0-3.56,9.68,13.334,13.334,0,0,0,3.56,9.68A12.087,12.087,0,0,0,350.48-8Zm56.64-35.2q8.08,0,12.96,4.72t4.88,14V0h-10V-23.2q0-5.6-2.64-8.44t-7.52-2.84a11.544,11.544,0,0,0-8.72,3.32q-3.2,3.32-3.2,9.56V0h-10V-42.72h9.52v5.52a15.634,15.634,0,0,1,6.24-4.48A22.456,22.456,0,0,1,407.12-43.2ZM450.88.56A38.248,38.248,0,0,1,440.72-.8a25.564,25.564,0,0,1-7.92-3.44l3.84-7.6a24.688,24.688,0,0,0,6.92,3.08,28.749,28.749,0,0,0,7.96,1.16q8.96,0,8.96-4.72a3.153,3.153,0,0,0-2.28-3.12,39.367,39.367,0,0,0-7.32-1.68,59.388,59.388,0,0,1-8.6-1.84,13.2,13.2,0,0,1-5.76-3.64,10.166,10.166,0,0,1-2.44-7.24,11.381,11.381,0,0,1,5.08-9.72q5.08-3.64,13.72-3.64a39.6,39.6,0,0,1,8.8,1,24.672,24.672,0,0,1,7.2,2.68l-3.84,7.6a23.685,23.685,0,0,0-12.24-3.2,13.566,13.566,0,0,0-6.68,1.32,3.938,3.938,0,0,0-2.28,3.48,3.476,3.476,0,0,0,2.44,3.4,38.776,38.776,0,0,0,7.56,1.88,58.333,58.333,0,0,1,8.4,1.84,13.147,13.147,0,0,1,5.64,3.52q2.36,2.48,2.36,7.04a11.14,11.14,0,0,1-5.2,9.6Q459.84.56,450.88.56Zm53.68-2.88a11.772,11.772,0,0,1-4.28,2.16,19.275,19.275,0,0,1-5.32.72q-7.04,0-10.88-3.68t-3.84-10.72V-34.4H473.2v-8h7.04v-9.76h10v9.76h11.44v8H490.24v20.32a6.759,6.759,0,0,0,1.52,4.76,5.7,5.7,0,0,0,4.4,1.64,8.786,8.786,0,0,0,5.6-1.76Zm17.76-34.16q4.32-6.72,15.2-6.72v9.52a12.7,12.7,0,0,0-2.32-.24q-5.84,0-9.12,3.4t-3.28,9.8V0h-10V-42.72h9.52Zm39.76-6.72q9.44,0,14.44,4.52t5,13.64V0h-9.44V-5.2a11.635,11.635,0,0,1-5.24,4.28,20.483,20.483,0,0,1-8.2,1.48,20.09,20.09,0,0,1-8.4-1.64,12.979,12.979,0,0,1-5.56-4.56,11.572,11.572,0,0,1-1.96-6.6A11.312,11.312,0,0,1,547-21.48q4.28-3.48,13.48-3.48h11.04v-.64a8.755,8.755,0,0,0-2.68-6.88q-2.68-2.4-7.96-2.4a22.977,22.977,0,0,0-7.08,1.12,17.393,17.393,0,0,0-5.88,3.12L544-37.92a24.273,24.273,0,0,1,8.08-3.92A35.951,35.951,0,0,1,562.08-43.2ZM560.72-6.72a12.912,12.912,0,0,0,6.68-1.72,9.359,9.359,0,0,0,4.12-4.92v-4.96H561.2q-8.64,0-8.64,5.68a5.1,5.1,0,0,0,2.16,4.32A9.9,9.9,0,0,0,560.72-6.72Z" transform="translate(1.04 61.76)"/>
+        </svg>
+        <span>Physicist | Software Developer</span>
+      </div>
+      <div class="scroll">
+        <a href="#projects">+</a>
+      </div>
+      <div class="credits">
+        <span>Background inspiration from <a href="https://kidmograph.tumblr.com/post/158924929379/energy-ch-mber-edit-my-blog-turns-5-today">KidMoGraph</a></span>
+      </div>
+    </header>
+    <section id="biography">
+      <div class="left">
+        <h1>Hey.</h1>
+        <span style="font-weight:400">
+          <br>
+          My name is Jitse. I am a 21 year old Applied Physics student at the University of Twente, the Netherlands. In my spare time, I like making software.
+        </span>
+      </div>
+      <div class="right">
+        <!-- photo -->
+      </div>
+    </section>
+    <section id="projects">
+      <span class="section-title">Some of my projects</span>
+      <div class="project-list">
+          <div class="project">
+            <span class="project-title">NPCLib <span class="project-client client-public">Public</span></span>
+            <span class="project-description">Basic non-player character library for Minecraft.</span>
+            <div class="project-image project-image-npclib"></div>
+            <a class="project-link" href="https://github.com/JitseB/NPCLib">View project on GitHub</a>
+          </div>
+          <div class="project">
+            <span class="project-title">ImageP <span class="project-client client-public">Public</span></span>
+            <span class="project-description">Minimalistic image processing for Python.</span>
+            <div class="project-image project-image-imagep"></div>
+            <a class="project-link" href="https://github.com/JitseB/ImageP">View project on GitHub</a>
+          </div>
+          <div class="project">
+            <span class="project-title">SpacePointer <span class="project-client client-public">Public</span></span>
+            <span class="project-description">Point to any object in space!</span>
+            <div class="project-image project-image-spacepointer"></div>
+            <a class="project-link" href="https://github.com/JitseB/SpacePointer">View project on GitHub</a>
+          </div>
+          <div class="project">
+            <span class="project-title">DTC 2.0 <span class="project-client client-private">Private</span></span>
+            <span class="project-description">Defend The Core minigame for Minecraft.</span>
+            <div class="project-image project-image-dtc"></div>
+            <a class="project-link" href="http://www.youtube.com/watch?v=6Zkbf_cGJPI">View video of version 1.0</a>
+          </div>
+      </div>
+    </section>
+    <footer>
+      <span>Code and design by <span class="highlight">Jitse Boonstra</span>. All rights reserved 2021</span>
+      <span>Proudly hosted on <a href="https://github.com/JitseB/jitseb.github.io">GitHub</a></span>
+    </footer>
+  </body>
+</html>
