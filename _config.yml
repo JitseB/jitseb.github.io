@@ -46,6 +46,7 @@ plugins:
   - jekyll-gist
   - jekyll-include-cache
   - rouge
+  - jektex
 
 highlighter: rouge
 
@@ -68,3 +69,6 @@ toc:
  sublist_class: toc__sublist
 
 markdown: kramdown
+
+jektex:
+  cache_dir: ".jektex-cache"
