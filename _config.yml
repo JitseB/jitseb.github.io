@@ -74,6 +74,3 @@ markdown: kramdown
 
 jektex:
   cache_dir: ".jektex-cache"
-
-scholar:
-  style: modern-language-association
