@@ -24,12 +24,6 @@ body[data-theme="dark"] img.ioda {
     }
 }
 
-@media only screen and (max-width: 640px) {
-    .w {
-        padding: 2rem;
-    }
-}
-
 html,
 body {
     background: #FFFDF7
@@ -71,6 +65,11 @@ li {
     max-width: 640px;
     margin: 0 auto;
     padding: 4rem 2rem
+}
+@media screen and (max-width: calc(640px + 2*2rem)) {
+    .w {
+        padding: 2rem;
+    }
 }
 
 hr {
