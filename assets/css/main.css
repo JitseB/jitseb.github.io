@@ -24,6 +24,12 @@ body[data-theme="dark"] img.ioda {
     }
 }
 
+@media only screen and (max-width: 640px) {
+    .w {
+        padding: 2rem;
+    }
+}
+
 html,
 body {
     background: #FFFDF7
