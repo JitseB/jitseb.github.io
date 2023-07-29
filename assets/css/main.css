@@ -43,11 +43,6 @@ body {
     overflow-wrap: break-word
 }
 
-.post-meta {
-    text-align: right;
-    width: 100%
-}
-
 hr {
     margin: 2rem 0
 }
@@ -131,10 +126,9 @@ img {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    width: 100%;
-    left: 0;
+    align-self: center;
 }
+
 .mode-wrapper #mode {
     background: black;
     font-size: 1.5rem;
@@ -143,8 +137,11 @@ img {
     height: 40px;
     width: 40px;
     padding: 10px;
-    display: block;
-    margin: auto 0;
+    transition: background 300ms;
+}
+
+.mode-wrapper #mode:hover {
+    background: #F7DE50;
 }
 
 .mode-wrapper span {
@@ -156,14 +153,20 @@ img {
 }
 
 a {
-    color: #585123
+    color: #585123;
 }
 
 header {
     display: flex;
-    align-items: center
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 footer {
-    text-align: center
+    text-align: center;
+}
+
+.post-meta {
+    text-align: right;
 }
